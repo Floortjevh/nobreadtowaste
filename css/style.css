@@ -1,0 +1,206 @@
+/* styling voor tekst */
+body{
+  font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  font-size: large;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex-grow: 1;
+}
+h1{
+    font-weight: 700;
+    font-size: larger;
+}
+strong{
+    font-weight: 780;
+}
+
+
+/* styling voor groepen */
+footer{
+    box-sizing: border-box;
+    padding: 0em;
+    margin: 0em;
+    border-radius: 0.6em;
+    border: 0.8px solid #666666;
+    background-color: #F7F5F5;
+}
+main{
+    box-sizing: border-box;
+    padding: 0.5em;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    margin-right: 0em;
+    margin-left: 0em;
+    border-radius: 0.6em;
+    border: 1px solid #E4DEB3;
+    background-color: #FCF7D9;
+    color: black; 
+}
+
+
+/* styling voor images */
+header img{
+    max-width: 100%;
+    margin-top: 1em;
+}
+h1 img{
+    float: left;
+    margin-top: 0em;
+    margin-bottom: 0.4em;
+    margin-right: 10em;
+    margin-left: 0em;
+    padding: 0em;
+    max-width: 44%;
+}
+.a{
+    float: left;
+    margin: 0em;
+    padding: 0em;
+    max-width: 36%;
+}
+.aa{
+    float: right;
+    margin-top: 0.7em;
+    margin-bottom: 0em;
+    margin-left: 0.4em;
+    margin-right: 0em;
+    padding: 0em;
+    max-width: 45%;
+    border-radius: 5%;
+}
+.aaa{
+    float: left;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    margin-right: 0.8em;
+    margin-left: 0em;
+    padding: 0em;
+    max-width: 55%;
+    border-radius: 5%;
+}
+.b{
+    float: right;
+    margin: 0em;
+    padding: 0em;
+    max-width: 41.6%;
+}
+.bb{
+    float: left;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-right: 1em;
+    margin-left: 0em;
+    padding: 0em;
+    max-width: 45%;
+    border-radius: 5%;
+}
+.bbb{
+    float: left;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    margin-right: 0em;
+    margin-left: 1.8em;
+    padding: 0em;
+    max-width: 80%;
+}
+.c{
+    float: right;
+    margin: 0em;
+    margin-left: 0.2em;
+    padding: 0em;
+    max-width: 31.4%;
+}
+.cc{
+    float: right;
+    margin-top: 0.4em;
+    margin-bottom: 0em;
+    margin-left: 0.2em;
+    margin-right: 0em;
+    padding: 0em;
+    max-width: 44%;
+    border-radius: 5%;
+}
+.ccc{
+    float: left;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    margin-right: 0em;
+    margin-left: 0em;
+    padding: 0em;
+    max-width: 60%;
+    border-radius: 5%;
+}
+.d{
+    float: right;
+    margin: 0em;
+    padding: 0em;
+    max-width: 40%;
+}
+.dd{
+    box-sizing: border-box;
+    float: left;
+    padding-top: 0.1em;
+    padding-bottom: 0.25em;
+    padding-right: 0em;
+    padding-left: 0.54em;
+    margin-top: 0.4em;
+    margin-bottom: 2em;
+    margin-right: 5.85em;
+    margin-left: 0em;
+    border-radius: 0.6em;
+    border: 1px solid #6C5345;
+    background-color: #755A4B;
+    color: white; 
+    font-weight: 500;
+}
+.dd img{
+    max-width: 13%;
+    margin-left: 0.3em;
+}
+.ddd{
+    float: left;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    margin-right: 0.6em;
+    margin-left: 0em;
+    padding: 0em;
+    max-width: 48%;
+    border-radius: 5%;
+}
+.dddd{
+    float: left;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    margin-right: 0em;
+    margin-left: 0em;
+    padding: 0em;
+    max-width: 48%;
+    border-radius: 5%;
+}
+
+
+/* styling voor navigatie */
+ul{
+    list-style-type: none;
+    padding: 0em;  
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    transition: all 250ms ease;
+}
+nav img{
+    max-width: 110%;
+}
+
