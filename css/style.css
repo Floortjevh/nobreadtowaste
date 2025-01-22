@@ -9,10 +9,10 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
+} /* code van Video "HOW to keep your FOOTER at the bottom of the page with CSS", van The Code Creativevia */
 main{
     flex-grow: 1;
-}
+} /* code van Video "HOW to keep your FOOTER at the bottom of the page with CSS", van The Code Creativevia */
 h1{
     font-weight: 700;
     font-size: larger;
@@ -22,7 +22,8 @@ strong{
 }
 
 
-/* styling voor groepen */
+
+/* styling voor vlakken */
 footer{
     box-sizing: border-box;
     padding: 0em;
@@ -43,6 +44,7 @@ main{
     background-color: #FCF7D9;
     color: black; 
 }
+
 
 
 /* styling voor images */
@@ -186,6 +188,7 @@ h1 img{
 }
 
 
+
 /* styling voor navigatie */
 ul{
     list-style-type: none;
@@ -195,9 +198,6 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-nav a{
-    transition: all 250ms ease;
 }
 nav img{
     max-width: 110%;
